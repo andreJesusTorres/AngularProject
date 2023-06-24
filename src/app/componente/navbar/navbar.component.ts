@@ -7,14 +7,16 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
   title: string;
-  text: string;
   button_user: string;
+  image_logo: string;
   constructor(){
     this.title="Proyecto Angular";
-    this.text="<-- Barra de navegación -->";
-    this.button_user="Usuario";
+    this.button_user="Creador ¡Clickeame!";
+    this.image_logo='assets/angular_logo.png';
   }
+  
   text_changer(){
     this.button_user="André Jesús Torres";
   }
+  
 }
